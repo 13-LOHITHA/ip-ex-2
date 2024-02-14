@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .one{
+                height: 1000px;
+                width: 1000px;
+                background-color: lightpink;
+                margin-top: 50px;
+                margin-left: 250px;border-style: double;
+                border-width: 5px;
+                .two{
+                    height: 200px;
+                    width: 50px;
+                    border-bottom-color: darkblue;
+                    border-style: double;
+                    position: relative;
+                    }
+                    h3{
+                        position :relative;
+                        top :55px;
+                    }
+            }
+        </style>
+    </head>
+    <body style="background-color: plum">
+    <center>
+        <h1><img src=""></h1>
+<h2>Viraganur,Madurai.</h2>
+    </center>
+   
+    <div class="two"><h3 style="color:brown">Menus</h3><br>
+    <label for="user entry">user entry</label>
+   <select  name="user entry">
+            <option>update profile</option>
+            <option>change password</option>
+            <option>late comer</option>
+   </select><br><br>
+   <label for="ab">defaulter report</label>
+   <select  name="ab">
+            <option>edit</option>
+            <option>update</option>  
+   </select><br><br>
+   <label for="cb">absentees report</label>
+   <select  name="bc">
+            <option>edit</option>
+            <option>update</option>      
+   </select><br></div>
+    <div class="one"></div>
+    </body>
+</html>
